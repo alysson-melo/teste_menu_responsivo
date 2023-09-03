@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints
+
+Mobile devices – 320px — 480px.
+Tablets and mobile devices – 481px — 768px.
+Laptops and tablets – 769px — 1024px.
+Desktops, large screens – 1025px — 1200px.
+Extra large screens, TV – 1201px, and more. */
+
+@media screen and (min-width: 768px) {
+    
+ 
+
+    .header{
+        display: flex;
+        height: 12vh;
+        max-width: 1200px;
+        margin: auto;
+        align-content: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #burger {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    menu > ul > li > a {
+        padding: 25px;
+        margin-inline: 10px;
+        border: none;
+        border-radius: 20px;
+    }
+
+    .container1{
+       width: 768px; 
+    }
+    
+}
